@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finalview">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.003"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="@color/purple"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="43dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="40dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/addimage"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Skills"
+                    android:paddingLeft="2dp"
+                    android:fontFamily="monospace"
+                    android:textColor="#000000"
+                    android:textSize="26sp"
+                    android:textStyle="bold">
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="2sp"
+                    android:background="#F34EC4D3"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Text View"
+                    android:id="@+id/skill1Final"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/skill2Final"
+                    android:text="Text View"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/skill3Final"
+                    android:text="Text View"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="33sp"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="2dp"
+                    android:textColor="#000000"
+                    android:fontFamily="monospace"
+                    android:text="Languages">
+
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="2sp"
+                    android:background="#F34EC4D3"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="18sp"
+                    android:text="English">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="2dp"
+                    android:text="French">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="18sp"
+                    android:text="Hindi">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="33sp"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="2dp"
+                    android:textColor="#000000"
+                    android:fontFamily="monospace"
+                    android:text="Hobbies">
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="2sp"
+                    android:background="#F34EC4D3"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:id="@+id/hobby1Final"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="2dp"
+                    android:text="Hobby1">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:id="@+id/hobby2Final"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="2dp"
+                    android:text="Hobby2">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hobby3Final"
+                    android:textSize="18sp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="2dp"
+                    android:text="Hobby3">
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="281dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/personNamefinal"
+                    android:layout_width="271dp"
+                    android:layout_height="69dp"
+                    android:text="TextView"
+                    android:textStyle="bold"
+                    android:paddingTop="9sp"
+                    android:textColor="@color/black"
+                    android:textSize="40sp"
+                    android:layout_marginTop="45sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.644"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.086" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4sp"
+                    android:paddingLeft="2dp"
+                    android:text="Developer / Coder"
+                    android:textColor="#231313"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bio"
+                    android:layout_marginTop="40sp"
+                    android:fontFamily="monospace"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="94dp"
+                    android:id="@+id/bioFinal"
+                    android:inputType="textMultiLine"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.647"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.569" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4sp"
+                    android:textSize="26sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="monospace"
+                    android:text="Education"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/tenthfinal"
+                    android:layout_height="wrap_content"
+                    android:hint="10th"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="12th"
+                    android:id="@+id/twelthFinal"
+                    android:textSize="18sp">
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="clg"
+                    android:id="@+id/collegeNamefinal"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="4sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Projects"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:layout_marginTop="15sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="P1"
+                    android:id="@+id/project1Final"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="P2"
+                    android:id="@+id/project2Final"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Extras"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:layout_marginTop="17dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Extra"
+                    android:id="@+id/aimFinal"
+                    android:textStyle="bold"
+                    android:textSize="18sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Social Profile"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:layout_marginTop="25dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Linked In:-"
+                    android:textColor="#1E1717"
+                    android:textSize="20sp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Link"
+                    android:id="@+id/linkedInFinal"
+                    android:textSize="18sp">
+                </TextView>
+
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
