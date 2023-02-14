@@ -42,7 +42,7 @@
         android:layout_width="81dp"
         android:layout_height="66dp"
         android:text="v1.0"
-        android:textSize="25sp"
+        android:textSize="24sp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
