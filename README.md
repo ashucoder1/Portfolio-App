@@ -5,4 +5,6 @@ This is a Android App that generally use intent to do transfer data from one act
 
 Use of Kotlin and Xml layout is preferred.
 
-Thnx
+
+Thnx for your contribution.
+
